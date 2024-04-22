@@ -19,5 +19,6 @@ def cli_options(prog_name: str, args: list[str] = None) -> Namespace:
     parser.add_argument('-e', '--escape-radius', type=float, default=2)
     parser.add_argument('-s', '--smooth', action='store_true')
     parser.add_argument('-cm', '--color-map', default=None)
+    parser.add_argument('-i', '--invert-color-map', action='store_true')
 
     return parser.parse_args(args=args)

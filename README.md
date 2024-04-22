@@ -55,6 +55,10 @@ options:
 
 You can use this [Julia Set Explorer] to find appealing parameter.
 
+```shell
+python fractal-visualizer.py -vc -0.65 0 -vw 3 -cm hot -f bmp -d 512x512
+```
+
 ### Mandelbrot set
 ```shell
 python fractal-visualizer.py -vc -0.65 0 -vw 3
